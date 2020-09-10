@@ -6,7 +6,7 @@ while enter != "Стоп":
     enter = input()
 for i in range(len(rows)):
     if rows[i].lower().__contains__("кот"):
-        print(i+1)
+        print(i + 1)
         flag = True
         break
 if not flag:

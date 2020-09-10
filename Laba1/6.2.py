@@ -1,4 +1,4 @@
-space = int(input())-1
+space = int(input()) - 1
 sign = 1
 while space > -1:
     print(" " * space + "*" * sign)
