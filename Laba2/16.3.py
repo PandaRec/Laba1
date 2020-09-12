@@ -10,9 +10,12 @@ for i in range(count_of_rows):
 temp_arr = []
 count_of_rows = int(input())
 for i in range(count_of_rows):
-    antibiotic.append([int(input()), int(input())])
+    a=int(input())
+    b=int(input())
+    antibiotic.append([b,a])
+    #antibiotic.append([int(input()), int(input())])
 
-for i in range(len (antibiotic)):
+for i in range(len(antibiotic)):
     bacterium[antibiotic[i][0]][antibiotic[i][1]] -= 8
     if (antibiotic[i][0] == 0 and antibiotic[i][1] == 0) or (
             antibiotic[i][0] == 0 and antibiotic[i][1] == len(bacterium[0])) or (
@@ -97,8 +100,7 @@ for i in range(len (antibiotic)):
 
 for i in range(len(bacterium)):
     for j in range(len(bacterium)):
-        if bacterium[i][j]<0:
-            bacterium[i][j]=0
-        print(bacterium[i][j],end=' ')
+        if bacterium[i][j] < 0:
+            bacterium[i][j] = 0
+        print(bacterium[i][j], end=' ')
     print()
-
