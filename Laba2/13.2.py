@@ -1,5 +1,5 @@
 count_of_rows = int(input())
-numbers=[]
+numbers = []
 for i in range(count_of_rows):
     numbers.append(int(input()))
 numbers.sort(reverse=True)

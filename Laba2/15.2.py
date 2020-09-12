@@ -1,1 +1,1 @@
-print(len(input().replace(' ',''.replace('\n',''))))
+print(len(input().replace(' ', ''.replace('\n', ''))))

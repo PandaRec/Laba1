@@ -10,7 +10,6 @@ count_of_requests = int(input())
 for i in range(count_of_requests):
     requests.append(input())
 
-
 for i in requests:
     if i in white_requests:
         print(i)

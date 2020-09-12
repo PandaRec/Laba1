@@ -1,12 +1,12 @@
 # правильно ли я понял задание вообще
 count_of_sentence = int(input())
 arr = []
-to_print=[]
+to_print = []
 for i in range(count_of_sentence):
     row = input()
     arr.append([])
     arr[i].append(row.split(','))
-count_of_print=int(input())
+count_of_print = int(input())
 for i in range(count_of_print):
     to_print.append(input())
 for i in range(count_of_print):
