@@ -1,10 +1,10 @@
-from PIL import Image, ImageDraw  # Подключим необходимые библиотеки.
+from PIL import Image, ImageDraw
 
-image = Image.open('test.png')  # Открываем изображение.
-draw = ImageDraw.Draw(image)  # Создаем инструмент для рисования.
-width = image.size[0]  # Определяем ширину.
-height = image.size[1]  # Определяем высоту.
-pix = image.load()  # Выгружаем значения пикселей.
+image = Image.open('test.png')
+draw = ImageDraw.Draw(image)
+width = image.size[0]
+height = image.size[1]
+pix = image.load()
 depth = int(input('depth:'))
 
 
